@@ -179,7 +179,7 @@ def parse():
 
     # Validate arguments count
     if len(sys.argv) != 3:
-        print("Usage : png_parser.py <input.png> <output.png>")
+        print("Usage : png_fixer.py <input.png> <output.png>")
         exit(0)
 
     # Dump PNG in a buffer
